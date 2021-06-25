@@ -1,0 +1,49 @@
+list port in used 
+netstat -a -o -n | find "8501"
+
+kill it
+
+taskkill /F /PID 34408
+---------------------------------------------------------------------------------------
+to print all the .txt files name in 11.txt file
+
+dir *.txt /b /a-d >>11.txt
+----------------------------------------------------------
+1. Run a pprogram of GC and singleton.
+2. Why read resolve does not work in singelton serialization.
+---------------------------------------------------------
+
+git archive --format=zip -o stagged.zip $(git stash create) $(git diff --cached --name-only HEAD)
+-------------------------------------------------------------------------------------
+Learn REST concept
+Learn HATEOAS
+Learn JAVA generics
+complete git rebasing *
+complete jenkins *
+learn docker *
+complete angular **
+learn spring event **
+learn spring async methods and classes **
+learn about spring proxies and why,how to use them **
+complete spring AOP **
+complete spring microservices **
+learn multi-threading in java
+learn java 8
+learn collections in java7 then java 8 **
+learn hibernate  **
+learn spring data JPA **
+learn git secrets maitaining mechanism
+complete SSH
+learn javascript, typescript,css html
+learn graph data structure 
+complete @Transactional spring annotations **
+learn java concurrency
+learn serialization and use of it,also serialversion uid
+--------------------------------------------------------------------------------------
+component scan is required when adding a [project into another project as depenedency ???
+
+is giving a dialect is required??
+
+transactional non transactinoal statements in sql server??
+
+preventing a connection from sleeping in data jpa at production??
